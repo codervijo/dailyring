@@ -1,0 +1,21 @@
+---
+// Shared app shell: <html>/<head>/<body> chrome + global styles.
+// Pages inject their own <head> tags via the named "head" slot so that
+// per-page SEO meta stays literal in the page source.
+import "../styles/global.css";
+
+interface Props {
+  lang?: string;
+}
+
+const { lang = "en" } = Astro.props;
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <slot name="head" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
