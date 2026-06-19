@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dailyring.xyz/sitemap.xml
+Sitemap: https://dailyring.xyz/sitemap-index.xml
