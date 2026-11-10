@@ -11,6 +11,10 @@ custom_domains = [
     "dailyring.xyz",
 ]
 
+[index]
+indexnow_key = "e67a138f949da0b53f0e206914594fda"
+indexnow_enabled = true
+
 [stack]
 framework = "astro"
 
